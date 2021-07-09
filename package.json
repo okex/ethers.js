@@ -1,5 +1,5 @@
 {
-  "name": "ethers",
+  "name": "exchain-ethers",
   "common": {
     "ethereum": "donations.ethers.eth",
     "funding": [
@@ -16,7 +16,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/ethers-io/ethers.js.git"
+    "url": "git://github.com/okex/ethers.js.git"
   },
   "scripts": {
     "preinstall": "npm run bootstrap-hoist",
@@ -52,7 +52,7 @@
     "build-dist": "node ./misc/admin/lib/cmds/npm-skip-node8.js || npm run _build-dist-nodesafe",
     "build-all": "npm run build-libs && npm run build-dist",
     "update-versions": "npm run clean && npm install && npm run spell-check && npm run build-all && node ./misc/admin/lib/cmds/bump-versions && npm run build-all && node ./misc/admin/lib/cmds/update-hashes && node ./misc/admin/lib/cmds/update-changelog",
-    "publish-all": "node ./misc/admin/lib/cmds/publish",
+    "publish-all": "node ./misc/admin/lib/cmds/publish --trace-warnings ...",
     "TODO-sync-github": "node ./admin/cmds/cache-github"
   },
   "devDependencies": {
