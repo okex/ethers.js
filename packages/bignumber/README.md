@@ -31,7 +31,7 @@ const {
 
     BigNumberish
 
-} = require("@ethersproject/bignumber");
+} = require("@exchain-ethersproject/bignumber");
 ```
 
 

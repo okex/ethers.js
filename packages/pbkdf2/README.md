@@ -18,7 +18,7 @@ const {
 
     pbkdf2
 
-} = require("@ethersproject/pbkdf2");
+} = require("@exchain-ethersproject/pbkdf2");
 ```
 
 

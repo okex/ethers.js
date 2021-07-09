@@ -61,7 +61,7 @@ exports.assemble = exports.parse = exports.SemanticErrorSeverity = exports.forma
 // - When checking name collisions, verify no collision in javascript
 var path_1 = require("path");
 var vm_1 = __importDefault(require("vm"));
-var ethers_1 = require("ethers");
+var ethers_1 = require("exchain-ethers");
 var opcodes_1 = require("./opcodes");
 var _parser_1 = require("./_parser");
 var _version_1 = require("./_version");

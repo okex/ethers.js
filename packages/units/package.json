@@ -1,9 +1,9 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@ethersproject/bignumber": "^5.4.0",
-    "@ethersproject/constants": "^5.4.0",
-    "@ethersproject/logger": "^5.4.0"
+    "@exchain-ethersproject/bignumber": "^5.4.0",
+    "@exchain-ethersproject/constants": "^5.4.0",
+    "@exchain-ethersproject/logger": "^5.4.0"
   },
   "description": "Unit conversion functions for Ethereum.",
   "ethereum": "donations.ethers.eth",
@@ -19,14 +19,14 @@
   ],
   "keywords": [
     "Ethereum",
-    "ethers",
+    "exchain-ethers",
     "units",
     "conversion"
   ],
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/units",
+  "name": "@exchain-ethersproject/units",
   "publishConfig": {
     "access": "public"
   },

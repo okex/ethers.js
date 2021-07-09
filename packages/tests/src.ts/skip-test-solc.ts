@@ -3,7 +3,7 @@
 import assert from "assert";
 import { resolve } from "path";
 import fs from "fs";
-import { solc } from "@ethersproject/cli";
+import { solc } from "@exchain-ethersproject/cli";
 
 describe('Test solc', function () {
 

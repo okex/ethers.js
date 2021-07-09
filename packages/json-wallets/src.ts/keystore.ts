@@ -3,19 +3,19 @@
 import aes from "aes-js";
 import scrypt from "scrypt-js";
 
-import { ExternallyOwnedAccount } from "@ethersproject/abstract-signer";
-import { getAddress } from "@ethersproject/address";
-import { arrayify, Bytes, BytesLike, concat, hexlify } from "@ethersproject/bytes";
-import { defaultPath, entropyToMnemonic, HDNode, Mnemonic, mnemonicToEntropy } from "@ethersproject/hdnode";
-import { keccak256 } from "@ethersproject/keccak256";
-import { pbkdf2 as _pbkdf2 } from "@ethersproject/pbkdf2";
-import { randomBytes } from "@ethersproject/random";
-import { Description } from "@ethersproject/properties";
-import { computeAddress } from "@ethersproject/transactions";
+import { ExternallyOwnedAccount } from "@exchain-ethersproject/abstract-signer";
+import { getAddress } from "@exchain-ethersproject/address";
+import { arrayify, Bytes, BytesLike, concat, hexlify } from "@exchain-ethersproject/bytes";
+import { defaultPath, entropyToMnemonic, HDNode, Mnemonic, mnemonicToEntropy } from "@exchain-ethersproject/hdnode";
+import { keccak256 } from "@exchain-ethersproject/keccak256";
+import { pbkdf2 as _pbkdf2 } from "@exchain-ethersproject/pbkdf2";
+import { randomBytes } from "@exchain-ethersproject/random";
+import { Description } from "@exchain-ethersproject/properties";
+import { computeAddress } from "@exchain-ethersproject/transactions";
 
 import { getPassword, looseArrayify, searchPath, uuidV4, zpad } from "./utils";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@exchain-ethersproject/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

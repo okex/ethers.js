@@ -1,15 +1,15 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@ethersproject/address": "^5.4.0",
-    "@ethersproject/bignumber": "^5.4.0",
-    "@ethersproject/bytes": "^5.4.0",
-    "@ethersproject/constants": "^5.4.0",
-    "@ethersproject/hash": "^5.4.0",
-    "@ethersproject/keccak256": "^5.4.0",
-    "@ethersproject/logger": "^5.4.0",
-    "@ethersproject/properties": "^5.4.0",
-    "@ethersproject/strings": "^5.4.0"
+    "@exchain-ethersproject/address": "^5.4.0",
+    "@exchain-ethersproject/bignumber": "^5.4.0",
+    "@exchain-ethersproject/bytes": "^5.4.0",
+    "@exchain-ethersproject/constants": "^5.4.0",
+    "@exchain-ethersproject/hash": "^5.4.0",
+    "@exchain-ethersproject/keccak256": "^5.4.0",
+    "@exchain-ethersproject/logger": "^5.4.0",
+    "@exchain-ethersproject/properties": "^5.4.0",
+    "@exchain-ethersproject/strings": "^5.4.0"
   },
   "description": "Utilities and Classes for parsing, formatting and managing Ethereum ABIs.",
   "ethereum": "donations.ethers.eth",
@@ -25,12 +25,12 @@
   ],
   "keywords": [
     "Ethereum",
-    "ethers"
+    "exchain-ethers"
   ],
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/abi",
+  "name": "@exchain-ethersproject/abi",
   "publishConfig": {
     "access": "public"
   },

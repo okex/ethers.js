@@ -1,11 +1,11 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@ethersproject/abstract-provider": "^5.4.0",
-    "@ethersproject/bignumber": "^5.4.0",
-    "@ethersproject/bytes": "^5.4.0",
-    "@ethersproject/logger": "^5.4.0",
-    "@ethersproject/properties": "^5.4.0"
+    "@exchain-ethersproject/abstract-provider": "^5.4.0",
+    "@exchain-ethersproject/bignumber": "^5.4.0",
+    "@exchain-ethersproject/bytes": "^5.4.0",
+    "@exchain-ethersproject/logger": "^5.4.0",
+    "@exchain-ethersproject/properties": "^5.4.0"
   },
   "description": "An Abstract Class for desribing an Ethereum Signer for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -21,12 +21,12 @@
   ],
   "keywords": [
     "Ethereum",
-    "ethers"
+    "exchain-ethers"
   ],
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/abstract-signer",
+  "name": "@exchain-ethersproject/abstract-signer",
   "publishConfig": {
     "access": "public"
   },

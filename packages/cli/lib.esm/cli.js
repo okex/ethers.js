@@ -11,7 +11,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 import fs from "fs";
 import { basename } from "path";
-import { ethers } from "ethers";
+import { ethers } from "exchain-ethers";
 import * as scrypt from "scrypt-js";
 import { getChoice, getPassword, getProgressBar } from "./prompt";
 import { version } from "./_version";
@@ -650,7 +650,7 @@ export class CLI {
             return basename(process.mainModule.filename).split(".")[0];
         }
         catch (error) { }
-        return "ethers";
+        return "exchain-ethers";
     }
     // @TODO: Better way to specify default; i.e. may not have args
     addPlugin(command, plugin) {

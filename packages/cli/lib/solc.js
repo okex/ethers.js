@@ -8,7 +8,7 @@ exports.compile = exports.wrapSolc = exports.customRequire = void 0;
 var fs_1 = __importDefault(require("fs"));
 var module_1 = __importDefault(require("module"));
 var path_1 = require("path");
-var ethers_1 = require("ethers");
+var ethers_1 = require("exchain-ethers");
 ;
 function populateOptions(options) {
     options = ethers_1.ethers.utils.shallowCopy(options || {});
@@ -99,7 +99,7 @@ function _compile(_solc, source, options) {
     return result;
 }
 // Creates a require which will first search from the current location,
-// and for solc will fallback onto the version included in @ethersproject/cli
+// and for solc will fallback onto the version included in @exchain-ethersproject/cli
 function customRequire(path) {
     // Node 8.x does not support createRequireFromPath
     var createRequire = (module_1.default.createRequireFromPath || (function (path) {

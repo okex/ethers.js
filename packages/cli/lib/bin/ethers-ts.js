@@ -57,7 +57,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var fs_1 = __importDefault(require("fs"));
 var path_1 = require("path");
-var ethers_1 = require("ethers");
+var ethers_1 = require("exchain-ethers");
 var cli_1 = require("../cli");
 var typescript_1 = require("../typescript");
 var solc_1 = require("../solc");

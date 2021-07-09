@@ -1,7 +1,7 @@
 "use strict";
 
-import { getAddress } from "@ethersproject/address";
-import { hexZeroPad } from "@ethersproject/bytes";
+import { getAddress } from "@exchain-ethersproject/address";
+import { hexZeroPad } from "@exchain-ethersproject/bytes";
 
 import { Coder, Reader, Writer } from "./abstract-coder";
 

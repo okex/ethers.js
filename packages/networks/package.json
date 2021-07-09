@@ -1,7 +1,7 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@ethersproject/logger": "^5.4.0"
+    "@exchain-ethersproject/logger": "^5.4.0"
   },
   "description": "Network definitions for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -17,12 +17,12 @@
   ],
   "keywords": [
     "Ethereum",
-    "ethers"
+    "exchain-ethers"
   ],
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/networks",
+  "name": "@exchain-ethersproject/networks",
   "publishConfig": {
     "access": "public"
   },

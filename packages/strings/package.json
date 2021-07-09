@@ -1,9 +1,9 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@ethersproject/bytes": "^5.4.0",
-    "@ethersproject/constants": "^5.4.0",
-    "@ethersproject/logger": "^5.4.0"
+    "@exchain-ethersproject/bytes": "^5.4.0",
+    "@exchain-ethersproject/constants": "^5.4.0",
+    "@exchain-ethersproject/logger": "^5.4.0"
   },
   "description": "String utility functions.",
   "ethereum": "donations.ethers.eth",
@@ -19,14 +19,14 @@
   ],
   "keywords": [
     "Ethereum",
-    "ethers",
+    "exchain-ethers",
     "strings",
     "utf8"
   ],
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/strings",
+  "name": "@exchain-ethersproject/strings",
   "publishConfig": {
     "access": "public"
   },

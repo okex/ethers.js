@@ -1,6 +1,6 @@
-import { ExternallyOwnedAccount } from "@ethersproject/abstract-signer";
-import { BytesLike } from "@ethersproject/bytes";
-import { Wordlist } from "@ethersproject/wordlists";
+import { ExternallyOwnedAccount } from "@exchain-ethersproject/abstract-signer";
+import { BytesLike } from "@exchain-ethersproject/bytes";
+import { Wordlist } from "@exchain-ethersproject/wordlists";
 export declare const defaultPath = "m/44'/60'/0'/0/0";
 export interface Mnemonic {
     readonly phrase: string;

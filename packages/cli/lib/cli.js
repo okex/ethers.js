@@ -77,7 +77,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.CLI = exports.Plugin = exports.ArgParser = exports.dump = void 0;
 var fs_1 = __importDefault(require("fs"));
 var path_1 = require("path");
-var ethers_1 = require("ethers");
+var ethers_1 = require("exchain-ethers");
 var scrypt = __importStar(require("scrypt-js"));
 var prompt_1 = require("./prompt");
 var _version_1 = require("./_version");
@@ -875,7 +875,7 @@ var CLI = /** @class */ (function () {
             return path_1.basename(process.mainModule.filename).split(".")[0];
         }
         catch (error) { }
-        return "ethers";
+        return "exchain-ethers";
     };
     // @TODO: Better way to specify default; i.e. may not have args
     CLI.prototype.addPlugin = function (command, plugin) {

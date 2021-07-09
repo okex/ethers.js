@@ -1,4 +1,4 @@
-import { Network, Networkish } from "@ethersproject/networks";
+import { Network, Networkish } from "@exchain-ethersproject/networks";
 import { Event } from "./base-provider";
 import { JsonRpcProvider } from "./json-rpc-provider";
 export declare type InflightRequest = {

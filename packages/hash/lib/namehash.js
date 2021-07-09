@@ -1,10 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.namehash = exports.isValidName = void 0;
-var bytes_1 = require("@ethersproject/bytes");
-var strings_1 = require("@ethersproject/strings");
-var keccak256_1 = require("@ethersproject/keccak256");
-var logger_1 = require("@ethersproject/logger");
+var bytes_1 = require("@exchain-ethersproject/bytes");
+var strings_1 = require("@exchain-ethersproject/strings");
+var keccak256_1 = require("@exchain-ethersproject/keccak256");
+var logger_1 = require("@exchain-ethersproject/logger");
 var _version_1 = require("./_version");
 var logger = new logger_1.Logger(_version_1.version);
 var Zeros = new Uint8Array(32);

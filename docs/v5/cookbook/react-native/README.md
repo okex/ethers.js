@@ -19,7 +19,7 @@ Installing
 import "@ethersproject/shims"
 
 // Import the ethers library
-import { ethers } from "ethers";
+import { ethers } from "exchain-ethers";
 ```
 
 Security
@@ -33,6 +33,6 @@ import "react-native-get-random-values"
 import "@ethersproject/shims"
 
 // Import the ethers library
-import { ethers } from "ethers";
+import { ethers } from "exchain-ethers";
 ```
 

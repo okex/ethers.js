@@ -26,7 +26,7 @@ const {
     getContractAddress,
     getCreate2Address
 
-} = require("@ethersproject/address");
+} = require("@exchain-ethersproject/address");
 ```
 
 License

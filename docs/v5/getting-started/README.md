@@ -20,11 +20,11 @@ Importing
 ### Node.js
 
 ```
-const { ethers } = require("ethers");
+const { ethers } = require("exchain-ethers");
 ```
 
 ```
-import { ethers } from "ethers";
+import { ethers } from "exchain-ethers";
 ```
 
 ### Web Browser

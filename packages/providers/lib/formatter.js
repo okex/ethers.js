@@ -1,13 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.showThrottleMessage = exports.isCommunityResource = exports.isCommunityResourcable = exports.Formatter = void 0;
-var address_1 = require("@ethersproject/address");
-var bignumber_1 = require("@ethersproject/bignumber");
-var bytes_1 = require("@ethersproject/bytes");
-var constants_1 = require("@ethersproject/constants");
-var properties_1 = require("@ethersproject/properties");
-var transactions_1 = require("@ethersproject/transactions");
-var logger_1 = require("@ethersproject/logger");
+var address_1 = require("@exchain-ethersproject/address");
+var bignumber_1 = require("@exchain-ethersproject/bignumber");
+var bytes_1 = require("@exchain-ethersproject/bytes");
+var constants_1 = require("@exchain-ethersproject/constants");
+var properties_1 = require("@exchain-ethersproject/properties");
+var transactions_1 = require("@exchain-ethersproject/transactions");
+var logger_1 = require("@exchain-ethersproject/logger");
 var _version_1 = require("./_version");
 var logger = new logger_1.Logger(_version_1.version);
 var Formatter = /** @class */ (function () {

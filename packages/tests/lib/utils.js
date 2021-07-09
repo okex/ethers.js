@@ -2,7 +2,7 @@
 'use strict';
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.equals = exports.randomNumber = exports.randomHexString = exports.randomBytes = void 0;
-var ethers_1 = require("ethers");
+var ethers_1 = require("exchain-ethers");
 function randomBytes(seed, lower, upper) {
     if (!upper) {
         upper = lower;

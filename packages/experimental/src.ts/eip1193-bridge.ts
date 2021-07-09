@@ -2,7 +2,7 @@
 
 import EventEmitter from "events";
 
-import { ethers } from "ethers";
+import { ethers } from "exchain-ethers";
 
 import { version } from "./_version";
 

@@ -1,8 +1,8 @@
 "use strict";
-import { arrayify, concat, hexConcat, hexlify } from "@ethersproject/bytes";
-import { BigNumber } from "@ethersproject/bignumber";
-import { defineReadOnly } from "@ethersproject/properties";
-import { Logger } from "@ethersproject/logger";
+import { arrayify, concat, hexConcat, hexlify } from "@exchain-ethersproject/bytes";
+import { BigNumber } from "@exchain-ethersproject/bignumber";
+import { defineReadOnly } from "@exchain-ethersproject/properties";
+import { Logger } from "@exchain-ethersproject/logger";
 import { version } from "../_version";
 const logger = new Logger(version);
 export function checkResultErrors(result) {

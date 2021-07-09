@@ -2,7 +2,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.generate = exports.header = void 0;
-var ethers_1 = require("ethers");
+var ethers_1 = require("exchain-ethers");
 function getType(param, flexible) {
     if (param.type === "address" || param.type === "string") {
         return "string";

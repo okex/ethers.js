@@ -2,8 +2,8 @@
 
 import assert from 'assert';
 
-import { ethers } from "ethers";
-import { loadTests } from "@ethersproject/testcases";
+import { ethers } from "exchain-ethers";
+import { loadTests } from "@exchain-ethersproject/testcases";
 
 
 type TestCase = {

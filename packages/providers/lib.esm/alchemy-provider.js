@@ -8,10 +8,10 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-import { defineReadOnly } from "@ethersproject/properties";
+import { defineReadOnly } from "@exchain-ethersproject/properties";
 import { showThrottleMessage } from "./formatter";
 import { WebSocketProvider } from "./websocket-provider";
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@exchain-ethersproject/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 import { UrlJsonRpcProvider } from "./url-json-rpc-provider";

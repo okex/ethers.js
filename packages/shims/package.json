@@ -17,11 +17,11 @@
   ],
   "keywords": [
     "Ethereum",
-    "ethers"
+    "exchain-ethers"
   ],
   "license": "MIT",
   "main": "./src/index.js",
-  "name": "@ethersproject/shims",
+  "name": "@exchain-ethersproject/shims",
   "publishConfig": {
     "access": "public"
   },

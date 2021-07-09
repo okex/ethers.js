@@ -2,10 +2,10 @@
 
 "use strict";
 
-import { Network } from "@ethersproject/networks";
+import { Network } from "@exchain-ethersproject/networks";
 import { UrlJsonRpcProvider } from "./url-json-rpc-provider";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@exchain-ethersproject/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

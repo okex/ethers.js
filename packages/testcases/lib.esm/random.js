@@ -1,5 +1,5 @@
 "use strict";
-import { ethers } from "ethers";
+import { ethers } from "exchain-ethers";
 export function randomBytes(seed, lower, upper) {
     if (!upper) {
         upper = lower;

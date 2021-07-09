@@ -16,8 +16,8 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AddressCoder = void 0;
-var address_1 = require("@ethersproject/address");
-var bytes_1 = require("@ethersproject/bytes");
+var address_1 = require("@exchain-ethersproject/address");
+var bytes_1 = require("@exchain-ethersproject/bytes");
 var abstract_coder_1 = require("./abstract-coder");
 var AddressCoder = /** @class */ (function (_super) {
     __extends(AddressCoder, _super);

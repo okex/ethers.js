@@ -3,11 +3,11 @@
 import hash from "hash.js";
 //const _ripemd160 = _hash.ripemd160;
 
-import { arrayify, BytesLike } from "@ethersproject/bytes";
+import { arrayify, BytesLike } from "@exchain-ethersproject/bytes";
 
 import { SupportedAlgorithm } from "./types";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@exchain-ethersproject/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

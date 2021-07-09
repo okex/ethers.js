@@ -2,8 +2,8 @@
 
 'use strict';
 
-import { ethers } from "ethers";
-import { Base58 } from "@ethersproject/basex";
+import { ethers } from "exchain-ethers";
+import { Base58 } from "@exchain-ethersproject/basex";
 
 import { ArgParser, CLI, Help, Plugin } from '../cli';
 

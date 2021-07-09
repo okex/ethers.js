@@ -22,7 +22,7 @@ const {
 
     verifyMessage
 
-} = require("@ethersproject/wallet");
+} = require("@exchain-ethersproject/wallet");
 ```
 
 

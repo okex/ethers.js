@@ -9,8 +9,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 import assert from 'assert';
-import { ethers } from "ethers";
-import { loadTests } from "@ethersproject/testcases";
+import { ethers } from "exchain-ethers";
+import { loadTests } from "@exchain-ethersproject/testcases";
 import * as utils from './utils';
 function equals(a, b) {
     if (Array.isArray(a)) {

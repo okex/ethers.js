@@ -1,8 +1,8 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@ethersproject/web": "^5.4.0",
-    "ethers": "^5.4.0",
+    "@exchain-ethersproject/web": "^5.4.0",
+    "exchain-ethers": "^5.4.0",
     "scrypt-js": "3.0.1"
   },
   "description": "Experimental libraries for ethers. These should not be considered stable.",
@@ -19,12 +19,12 @@
   ],
   "keywords": [
     "Ethereum",
-    "ethers"
+    "exchain-ethers"
   ],
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/experimental",
+  "name": "@exchain-ethersproject/experimental",
   "publishConfig": {
     "access": "public"
   },

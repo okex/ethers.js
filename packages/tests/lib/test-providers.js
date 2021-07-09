@@ -41,7 +41,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var assert_1 = __importDefault(require("assert"));
 //import Web3HttpProvider from "web3-providers-http";
-var ethers_1 = require("ethers");
+var ethers_1 = require("exchain-ethers");
 var bnify = ethers_1.ethers.BigNumber.from;
 var blockchainData = {
     homestead: {

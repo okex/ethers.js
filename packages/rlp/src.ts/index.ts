@@ -2,9 +2,9 @@
 
 //See: https://github.com/ethereum/wiki/wiki/RLP
 
-import { arrayify, BytesLike, hexlify, isBytesLike } from "@ethersproject/bytes";
+import { arrayify, BytesLike, hexlify, isBytesLike } from "@exchain-ethersproject/bytes";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@exchain-ethersproject/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

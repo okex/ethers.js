@@ -191,7 +191,7 @@ function codeContextify(context) {
 
 
 module.exports = {
-  title: "ethers",
+  title: "exchain-ethers",
   subtitle: "v5.3",
   description: "Documentation for ethers, a complete, tiny and simple Ethereum library.",
   logo: "logo.svg",

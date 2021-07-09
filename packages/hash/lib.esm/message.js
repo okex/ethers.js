@@ -1,6 +1,6 @@
-import { concat } from "@ethersproject/bytes";
-import { keccak256 } from "@ethersproject/keccak256";
-import { toUtf8Bytes } from "@ethersproject/strings";
+import { concat } from "@exchain-ethersproject/bytes";
+import { keccak256 } from "@exchain-ethersproject/keccak256";
+import { toUtf8Bytes } from "@exchain-ethersproject/strings";
 export const messagePrefix = "\x19Ethereum Signed Message:\n";
 export function hashMessage(message) {
     if (typeof (message) === "string") {

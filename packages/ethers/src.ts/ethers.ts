@@ -1,29 +1,29 @@
 "use strict";
 
-import { BaseContract, Contract, ContractFactory } from "@ethersproject/contracts";
+import { BaseContract, Contract, ContractFactory } from "@exchain-ethersproject/contracts";
 
-import { BigNumber, FixedNumber } from "@ethersproject/bignumber";
+import { BigNumber, FixedNumber } from "@exchain-ethersproject/bignumber";
 
-import { Signer, VoidSigner } from "@ethersproject/abstract-signer";
-import { Wallet } from "@ethersproject/wallet";
+import { Signer, VoidSigner } from "@exchain-ethersproject/abstract-signer";
+import { Wallet } from "@exchain-ethersproject/wallet";
 
-import * as constants from "@ethersproject/constants";
+import * as constants from "@exchain-ethersproject/constants";
 
-import * as providers from "@ethersproject/providers";
-import { getDefaultProvider } from "@ethersproject/providers";
+import * as providers from "@exchain-ethersproject/providers";
+import { getDefaultProvider } from "@exchain-ethersproject/providers";
 
-import { Wordlist, wordlists} from "@ethersproject/wordlists";
+import { Wordlist, wordlists} from "@exchain-ethersproject/wordlists";
 
 import * as utils from "./utils";
 
-import { ErrorCode as errors, Logger } from "@ethersproject/logger";
+import { ErrorCode as errors, Logger } from "@exchain-ethersproject/logger";
 
 ////////////////////////
 // Types
 
-import { BigNumberish } from "@ethersproject/bignumber";
-import { Bytes, BytesLike, Signature } from "@ethersproject/bytes";
-import { Transaction, UnsignedTransaction } from "@ethersproject/transactions";
+import { BigNumberish } from "@exchain-ethersproject/bignumber";
+import { Bytes, BytesLike, Signature } from "@exchain-ethersproject/bytes";
+import { Transaction, UnsignedTransaction } from "@exchain-ethersproject/transactions";
 
 
 ////////////////////////
@@ -52,7 +52,7 @@ import {
     PopulatedTransaction,
 
     ContractInterface
-} from "@ethersproject/contracts";
+} from "@exchain-ethersproject/contracts";
 
 
 ////////////////////////

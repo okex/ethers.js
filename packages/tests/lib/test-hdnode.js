@@ -4,8 +4,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var assert_1 = __importDefault(require("assert"));
-var ethers_1 = require("ethers");
-var testcases_1 = require("@ethersproject/testcases");
+var ethers_1 = require("exchain-ethers");
+var testcases_1 = require("@exchain-ethersproject/testcases");
 function randomCase(seed, text) {
     return text.split("").map(function (c, index) {
         if (testcases_1.randomNumber(seed + "-" + index, 0, 2)) {

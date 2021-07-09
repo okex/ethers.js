@@ -30,7 +30,7 @@ const {
 
     Mnemonic
 
-} = require("@ethersproject/hdnode");
+} = require("@exchain-ethersproject/hdnode");
 ```
 
 

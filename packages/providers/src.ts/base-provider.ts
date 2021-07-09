@@ -3,22 +3,22 @@
 import {
     Block, BlockTag, BlockWithTransactions, EventType, Filter, FilterByBlockHash, ForkEvent,
     Listener, Log, Provider, TransactionReceipt, TransactionRequest, TransactionResponse
-} from "@ethersproject/abstract-provider";
-import { Base58 } from "@ethersproject/basex";
-import { BigNumber, BigNumberish } from "@ethersproject/bignumber";
-import { arrayify, concat, hexConcat, hexDataLength, hexDataSlice, hexlify, hexValue, hexZeroPad, isHexString } from "@ethersproject/bytes";
-import { HashZero } from "@ethersproject/constants";
-import { namehash } from "@ethersproject/hash";
-import { getNetwork, Network, Networkish } from "@ethersproject/networks";
-import { Deferrable, defineReadOnly, getStatic, resolveProperties } from "@ethersproject/properties";
-import { Transaction } from "@ethersproject/transactions";
-import { sha256 } from "@ethersproject/sha2";
-import { toUtf8Bytes, toUtf8String } from "@ethersproject/strings";
-import { poll } from "@ethersproject/web";
+} from "@exchain-ethersproject/abstract-provider";
+import { Base58 } from "@exchain-ethersproject/basex";
+import { BigNumber, BigNumberish } from "@exchain-ethersproject/bignumber";
+import { arrayify, concat, hexConcat, hexDataLength, hexDataSlice, hexlify, hexValue, hexZeroPad, isHexString } from "@exchain-ethersproject/bytes";
+import { HashZero } from "@exchain-ethersproject/constants";
+import { namehash } from "@exchain-ethersproject/hash";
+import { getNetwork, Network, Networkish } from "@exchain-ethersproject/networks";
+import { Deferrable, defineReadOnly, getStatic, resolveProperties } from "@exchain-ethersproject/properties";
+import { Transaction } from "@exchain-ethersproject/transactions";
+import { sha256 } from "@exchain-ethersproject/sha2";
+import { toUtf8Bytes, toUtf8String } from "@exchain-ethersproject/strings";
+import { poll } from "@exchain-ethersproject/web";
 
 import bech32 from "bech32";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@exchain-ethersproject/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

@@ -1,5 +1,5 @@
 "use strict";
-import { ethers } from "ethers";
+import { ethers } from "exchain-ethers";
 import { version } from "./_version";
 const logger = new ethers.utils.Logger(version);
 // @TODO: Keep a per-NonceManager pool of sent but unmined transactions for

@@ -56,7 +56,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Eip1193Bridge = void 0;
 var events_1 = __importDefault(require("events"));
-var ethers_1 = require("ethers");
+var ethers_1 = require("exchain-ethers");
 var _version_1 = require("./_version");
 var logger = new ethers_1.ethers.utils.Logger(_version_1.version);
 /*

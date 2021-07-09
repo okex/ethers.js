@@ -3,7 +3,7 @@
   <head>
     <title>ethers</title>
     <link rel="stylesheet" type="text/css" href="/v5/static/style.css">
-    <meta property="og:title" content="ethers"/>
+    <meta property="og:title" content="exchain-ethers"/>
     <meta property="og:description" content="Documentation for ethers, a complete, tiny and simple Ethereum library."/>
     
     <meta property="og:image" content="/v5/static/social.jpg"/>
@@ -39,8 +39,8 @@
 
 <div class="code">/home/ricmoo&gt; npm install --save ethers</div><a name="/v5/getting-started/-%23-importing"></a><a name="/v5/getting-started/-%23-getting-started--importing"></a><a name="/v5/getting-started/"></a><h2 class="show-anchors"><div>Importing<div class="anchors"><a class="self" href="#/v5/getting-started/-%23-importing"></a></div></div></h2>
 <a name="/v5/getting-started/-%23-getting-started--importing--node-js"></a><a name="/v5/getting-started/"></a><h3 class="show-anchors"><div>Node.js<div class="anchors"><a class="self" href="#/v5/getting-started/-%23-getting-started--importing--node-js"></a></div></div></h3>
-<div class="code-title"><div>node.js require</div></div><div class="code">const { ethers } = require("ethers");
-</div><div class="code-title"><div>ES6 or TypeScript</div></div><div class="code">import { ethers } from "ethers";
+<div class="code-title"><div>node.js require</div></div><div class="code">const { ethers } = require("exchain-ethers");
+</div><div class="code-title"><div>ES6 or TypeScript</div></div><div class="code">import { ethers } from "exchain-ethers";
 </div><a name="/v5/getting-started/-%23-getting-started--importing--web-browser"></a><a name="/v5/getting-started/"></a><h3 class="show-anchors"><div>Web Browser<div class="anchors"><a class="self" href="#/v5/getting-started/-%23-getting-started--importing--web-browser"></a></div></div></h3><p>It is generally better practice (for security reasons) to copy the <a href="https://cdn.ethers.io/lib/ethers-5.0.esm.min.js">ethers library</a> to your own webserver and serve it yourself.</p>
 
 <p>For quick demos or prototyping though, you can load it in your Web Applications from our CDN.</p>
@@ -4113,7 +4113,7 @@ OTHER OPTIONS
 </span>import "@ethersproject/shims"
 
 <span class="comment">// Import the ethers library
-</span>import { ethers } from "ethers";
+</span>import { ethers } from "exchain-ethers";
 </div><a name="/v5/cookbook/react-native/-%23-cookbook-reactnative-security"></a><a name="/v5/cookbook/react-native/-%23-cookbook-reactnative--cookbook-reactnative-security"></a><a name="/v5/cookbook/react-native/"></a><h2 class="show-anchors"><div>Security<div class="anchors"><a class="self" href="#/v5/cookbook/react-native/-%23-cookbook-reactnative-security"></a></div></div></h2><p>The React Native environment does not contain a secure random source, which is used when computing random private keys. This could result in private keys that others could possibly guess, allowing funds to be stolen and assets manipulated.</p>
 
 <p>For this reason, it is <b>HIGHLY RECOMMENDED</b> to also install the <a href="https://www.npmjs.com/package/react-native-get-random-values">React Native get-random-values</a>, which <b>must</b> be included before the shims. If it worked correctly you should not receive any warning in the console regarding missing secure random sources.</p>
@@ -4125,7 +4125,7 @@ OTHER OPTIONS
 </span>import "@ethersproject/shims"
 
 <span class="comment">// Import the ethers library
-</span>import { ethers } from "ethers";
+</span>import { ethers } from "exchain-ethers";
 </div><div class="page-separator"></div><a name="/v5/migration/-%23-migration"></a><a name="/v5/migration/-%23-migration"></a><a name="/v5/migration/"></a><h1 class="show-anchors"><div>Migration Guide<div class="anchors"><a class="self" href="#/v5/migration/-%23-migration"></a></div></div></h1><p>Here are some migration guides when upgrading from older versions of Ethers or other libraries.</p>
 
 <div class="toc"><div style="padding-left: 0px"><span class="bullet">&bull;</span><a href="#/v5/migration/web3/">Migration: From Web3.js</a></div><div style="padding-left: 0px"><span class="bullet">&bull;</span><a href="#/v5/migration/ethers-v4/">Migration: From Ethers v4</a></div></div><div class="page-separator"></div><a name="/v5/migration/web3/-%23-migration-from-web3-js"></a><a name="/v5/migration/web3/"></a><h1 class="show-anchors"><div>Migration: From Web3.js<div class="anchors"><a class="self" href="#/v5/migration/web3/-%23-migration-from-web3-js"></a></div></div></h1><p>This migration guide focuses on migrating web3.js version 1.2.9 to ethers.js v5.</p>
@@ -4138,7 +4138,7 @@ OTHER OPTIONS
 var web3 = new Web3('http://localhost:8545');
 
 <span class="comment">// ethers
-</span>var ethers = require('ethers');
+</span>var ethers = require('exchain-ethers');
 const url = "http://127.0.0.1:8545";
 const provider = new ethers.providers.JsonRpcProvider(url);
 </div><a name="/v5/migration/web3/-%23-migration-from-web3-js--providers--connecting-to-ethereum-metamask"></a><a name="/v5/migration/web3/"></a><h3 class="show-anchors"><div>Connecting to Ethereum: Metamask<div class="anchors"><a class="self" href="#/v5/migration/web3/-%23-migration-from-web3-js--providers--connecting-to-ethereum-metamask"></a></div></div></h3>

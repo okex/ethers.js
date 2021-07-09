@@ -1,5 +1,5 @@
-import { BlockTag, TransactionResponse } from "@ethersproject/abstract-provider";
-import { Network, Networkish } from "@ethersproject/networks";
+import { BlockTag, TransactionResponse } from "@exchain-ethersproject/abstract-provider";
+import { Network, Networkish } from "@exchain-ethersproject/networks";
 import { BaseProvider } from "./base-provider";
 export declare class EtherscanProvider extends BaseProvider {
     readonly baseUrl: string;

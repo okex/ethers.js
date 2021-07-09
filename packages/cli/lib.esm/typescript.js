@@ -1,6 +1,6 @@
 /* istanbul ignore file */
 "use strict";
-import { ethers } from "ethers";
+import { ethers } from "exchain-ethers";
 function getType(param, flexible) {
     if (param.type === "address" || param.type === "string") {
         return "string";

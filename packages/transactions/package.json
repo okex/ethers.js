@@ -1,17 +1,17 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@ethersproject/address": "^5.4.0",
-    "@ethersproject/bignumber": "^5.4.0",
-    "@ethersproject/bytes": "^5.4.0",
-    "@ethersproject/constants": "^5.4.0",
-    "@ethersproject/keccak256": "^5.4.0",
-    "@ethersproject/logger": "^5.4.0",
-    "@ethersproject/properties": "^5.4.0",
-    "@ethersproject/rlp": "^5.4.0",
-    "@ethersproject/signing-key": "^5.4.0",
-    "crypto-js": "^4.0.0",
-    "@summerpro/amino-js": "^0.1.2"
+    "@exchain-ethersproject/address": "^5.4.0",
+    "@exchain-ethersproject/bignumber": "^5.4.0",
+    "@exchain-ethersproject/bytes": "^5.4.0",
+    "@exchain-ethersproject/constants": "^5.4.0",
+    "@exchain-ethersproject/keccak256": "^5.4.0",
+    "@exchain-ethersproject/logger": "^5.4.0",
+    "@exchain-ethersproject/properties": "^5.4.0",
+    "@exchain-ethersproject/rlp": "^5.4.0",
+    "@exchain-ethersproject/signing-key": "^5.4.0",
+    "@summerpro/amino-js": "^0.1.2",
+    "crypto-js": "^4.0.0"
   },
   "description": "Utilities for decoding and encoding Ethereum transaction for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -27,12 +27,12 @@
   ],
   "keywords": [
     "Ethereum",
-    "ethers"
+    "exchain-ethers"
   ],
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/transactions",
+  "name": "@exchain-ethersproject/transactions",
   "publishConfig": {
     "access": "public"
   },

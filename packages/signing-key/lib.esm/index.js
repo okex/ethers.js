@@ -1,8 +1,8 @@
 "use strict";
 import { EC } from "./elliptic";
-import { arrayify, hexlify, hexZeroPad, splitSignature } from "@ethersproject/bytes";
-import { defineReadOnly } from "@ethersproject/properties";
-import { Logger } from "@ethersproject/logger";
+import { arrayify, hexlify, hexZeroPad, splitSignature } from "@exchain-ethersproject/bytes";
+import { defineReadOnly } from "@exchain-ethersproject/properties";
+import { Logger } from "@exchain-ethersproject/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 let _curve = null;

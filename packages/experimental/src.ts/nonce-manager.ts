@@ -1,6 +1,6 @@
 "use strict"
 
-import { ethers } from "ethers";
+import { ethers } from "exchain-ethers";
 
 import { version } from "./_version";
 

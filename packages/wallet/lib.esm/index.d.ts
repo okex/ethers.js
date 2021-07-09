@@ -1,10 +1,10 @@
-import { Provider, TransactionRequest } from "@ethersproject/abstract-provider";
-import { ExternallyOwnedAccount, Signer, TypedDataDomain, TypedDataField, TypedDataSigner } from "@ethersproject/abstract-signer";
-import { Bytes, BytesLike, SignatureLike } from "@ethersproject/bytes";
-import { Mnemonic } from "@ethersproject/hdnode";
-import { SigningKey } from "@ethersproject/signing-key";
-import { ProgressCallback } from "@ethersproject/json-wallets";
-import { Wordlist } from "@ethersproject/wordlists";
+import { Provider, TransactionRequest } from "@exchain-ethersproject/abstract-provider";
+import { ExternallyOwnedAccount, Signer, TypedDataDomain, TypedDataField, TypedDataSigner } from "@exchain-ethersproject/abstract-signer";
+import { Bytes, BytesLike, SignatureLike } from "@exchain-ethersproject/bytes";
+import { Mnemonic } from "@exchain-ethersproject/hdnode";
+import { SigningKey } from "@exchain-ethersproject/signing-key";
+import { ProgressCallback } from "@exchain-ethersproject/json-wallets";
+import { Wordlist } from "@exchain-ethersproject/wordlists";
 export declare class Wallet extends Signer implements ExternallyOwnedAccount, TypedDataSigner {
     readonly address: string;
     readonly provider: Provider;

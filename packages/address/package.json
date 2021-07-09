@@ -1,11 +1,11 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@ethersproject/bignumber": "^5.4.0",
-    "@ethersproject/bytes": "^5.4.0",
-    "@ethersproject/keccak256": "^5.4.0",
-    "@ethersproject/logger": "^5.4.0",
-    "@ethersproject/rlp": "^5.4.0"
+    "@exchain-ethersproject/bignumber": "^5.4.0",
+    "@exchain-ethersproject/bytes": "^5.4.0",
+    "@exchain-ethersproject/keccak256": "^5.4.0",
+    "@exchain-ethersproject/logger": "^5.4.0",
+    "@exchain-ethersproject/rlp": "^5.4.0"
   },
   "description": "Utilities for handling Ethereum Addresses for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -21,12 +21,12 @@
   ],
   "keywords": [
     "Ethereum",
-    "ethers"
+    "exchain-ethers"
   ],
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/address",
+  "name": "@exchain-ethersproject/address",
   "publishConfig": {
     "access": "public"
   },

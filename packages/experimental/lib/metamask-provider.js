@@ -16,7 +16,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.MetamaskProvider = void 0;
-var ethers_1 = require("ethers");
+var ethers_1 = require("exchain-ethers");
 var _version_1 = require("./_version");
 var logger = new ethers_1.ethers.utils.Logger(_version_1.version);
 var MetamaskProvider = /** @class */ (function (_super) {
