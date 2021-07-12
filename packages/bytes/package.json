@@ -1,7 +1,7 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@exchain-ethersproject/logger": "^5.4.0"
+    "@exchain-ethersproject/logger": "^5.5.0"
   },
   "description": "Bytes utility functions for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -39,5 +39,5 @@
   "sideEffects": false,
   "tarballHash": "0x16bcd0fa081ba271873675e4a95cf89a43c909f3269cf41711346cc50274c041",
   "types": "./lib/index.d.ts",
-  "version": "5.4.0"
+  "version": "5.5.0"
 }

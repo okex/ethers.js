@@ -9,7 +9,7 @@ exports.Opcode = exports.OpcodeMemoryAccess = void 0;
 //   See: https://eips.ethereum.org/EIPS/eip-1014
 // EXTCODEHASH
 //   See: https://eips.ethereum.org/EIPS/eip-1052
-var ethers_1 = require("exchain-ethers");
+var exchain_ethers_1 = require("exchain-ethers");
 var OpcodeMemoryAccess;
 (function (OpcodeMemoryAccess) {
     OpcodeMemoryAccess["write"] = "write";
@@ -19,11 +19,11 @@ var OpcodeMemoryAccess;
 ;
 var Opcode = /** @class */ (function () {
     function Opcode(mnemonic, value, delta, alpha, doc) {
-        ethers_1.ethers.utils.defineReadOnly(this, "mnemonic", mnemonic);
-        ethers_1.ethers.utils.defineReadOnly(this, "value", value);
-        ethers_1.ethers.utils.defineReadOnly(this, "delta", delta);
-        ethers_1.ethers.utils.defineReadOnly(this, "alpha", alpha);
-        ethers_1.ethers.utils.defineReadOnly(this, "doc", doc || null);
+        exchain_ethers_1.ethers.utils.defineReadOnly(this, "mnemonic", mnemonic);
+        exchain_ethers_1.ethers.utils.defineReadOnly(this, "value", value);
+        exchain_ethers_1.ethers.utils.defineReadOnly(this, "delta", delta);
+        exchain_ethers_1.ethers.utils.defineReadOnly(this, "alpha", alpha);
+        exchain_ethers_1.ethers.utils.defineReadOnly(this, "doc", doc || null);
     }
     // Returns if this opcode is a jump
     Opcode.prototype.isJump = function () {

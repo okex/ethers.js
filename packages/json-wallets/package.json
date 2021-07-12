@@ -1,17 +1,17 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@exchain-ethersproject/abstract-signer": "^5.4.0",
-    "@exchain-ethersproject/address": "^5.4.0",
-    "@exchain-ethersproject/bytes": "^5.4.0",
-    "@exchain-ethersproject/hdnode": "^5.4.0",
-    "@exchain-ethersproject/keccak256": "^5.4.0",
-    "@exchain-ethersproject/logger": "^5.4.0",
-    "@exchain-ethersproject/pbkdf2": "^5.4.0",
-    "@exchain-ethersproject/properties": "^5.4.0",
-    "@exchain-ethersproject/random": "^5.4.0",
-    "@exchain-ethersproject/strings": "^5.4.0",
-    "@exchain-ethersproject/transactions": "^5.4.0",
+    "@exchain-ethersproject/abstract-signer": "^5.5.0",
+    "@exchain-ethersproject/address": "^5.5.0",
+    "@exchain-ethersproject/bytes": "^5.5.0",
+    "@exchain-ethersproject/hdnode": "^5.5.0",
+    "@exchain-ethersproject/keccak256": "^5.5.0",
+    "@exchain-ethersproject/logger": "^5.5.0",
+    "@exchain-ethersproject/pbkdf2": "^5.5.0",
+    "@exchain-ethersproject/properties": "^5.5.0",
+    "@exchain-ethersproject/random": "^5.5.0",
+    "@exchain-ethersproject/strings": "^5.5.0",
+    "@exchain-ethersproject/transactions": "^5.5.0",
     "aes-js": "3.0.0",
     "scrypt-js": "3.0.1"
   },
@@ -49,5 +49,5 @@
   "sideEffects": false,
   "tarballHash": "0x10ff1e0b44741ad030f770b0797020520c746dac1dff2ec027a7dcf492dfa228",
   "types": "./lib/index.d.ts",
-  "version": "5.4.0"
+  "version": "5.5.0"
 }

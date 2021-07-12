@@ -1,8 +1,8 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@exchain-ethersproject/bytes": "^5.4.0",
-    "@exchain-ethersproject/properties": "^5.4.0"
+    "@exchain-ethersproject/bytes": "^5.5.0",
+    "@exchain-ethersproject/properties": "^5.5.0"
   },
   "description": "Base-X without Buffer.",
   "ethereum": "donations.ethers.eth",
@@ -38,5 +38,5 @@
   "sideEffects": false,
   "tarballHash": "0x806fdd9027b2f0acd21da73f42aedd802f3dde29fbd9180429b4be0b7b57bf71",
   "types": "./lib/index.d.ts",
-  "version": "5.4.0"
+  "version": "5.5.0"
 }

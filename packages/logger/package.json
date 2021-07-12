@@ -13,7 +13,6 @@
       "url": "https://www.buymeacoffee.com/ricmoo"
     }
   ],
-  "gitHead": "c2c0ce75039e7256b287f9a764188d08ed0b7296",
   "keywords": [
     "Ethereum",
     "exchain-ethers"
@@ -36,5 +35,5 @@
   "sideEffects": false,
   "tarballHash": "0x6d133f946bebc18ea523e479b4c07e9015003e8a5594879c0e69edf4c66a1abe",
   "types": "./lib/index.d.ts",
-  "version": "5.4.0"
+  "version": "5.5.0"
 }

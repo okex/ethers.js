@@ -4,9 +4,9 @@
   },
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@exchain-ethersproject/bytes": "^5.4.0",
-    "@exchain-ethersproject/logger": "^5.4.0",
-    "@exchain-ethersproject/properties": "^5.4.0",
+    "@exchain-ethersproject/bytes": "^5.5.0",
+    "@exchain-ethersproject/logger": "^5.5.0",
+    "@exchain-ethersproject/properties": "^5.5.0",
     "bn.js": "^4.11.9",
     "elliptic": "6.5.4",
     "hash.js": "1.1.7"
@@ -45,5 +45,5 @@
   "sideEffects": false,
   "tarballHash": "0xfd8ee75a1eb8fc49f41f0e7f52caa8bd1ff6ece9522f13abb8effc7c992894ec",
   "types": "./lib/index.d.ts",
-  "version": "5.4.0"
+  "version": "5.5.0"
 }

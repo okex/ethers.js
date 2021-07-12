@@ -4,7 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var assert_1 = __importDefault(require("assert"));
-var ethers_1 = require("exchain-ethers");
+var exchain_ethers_1 = require("exchain-ethers");
 var testcases_1 = require("@exchain-ethersproject/testcases");
 function checkWordlist(content, wordlist) {
     var words = content.split('\n');
@@ -30,7 +30,7 @@ function checkWordlist(content, wordlist) {
 describe('Check Wordlists', function () {
     var tests = testcases_1.loadTests("wordlists");
     tests.forEach(function (test) {
-        var wordlist = (ethers_1.ethers.wordlists)[test.locale];
+        var wordlist = (exchain_ethers_1.ethers.wordlists)[test.locale];
         if (wordlist == null) {
             return;
         }

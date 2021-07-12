@@ -1,8 +1,8 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@exchain-ethersproject/web": "^5.4.0",
-    "exchain-ethers": "^5.4.0",
+    "@exchain-ethersproject/web": "^5.5.0",
+    "exchain-ethers": "^5.5.0",
     "scrypt-js": "3.0.1"
   },
   "description": "Experimental libraries for ethers. These should not be considered stable.",
@@ -39,5 +39,5 @@
   "sideEffects": false,
   "tarballHash": "0xdd4c3f3890b81b6ea30635130216c3370725abbca84bafe6517d5452ca3f9837",
   "types": "./lib/index.d.ts",
-  "version": "5.4.0"
+  "version": "5.5.0"
 }

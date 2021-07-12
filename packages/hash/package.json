@@ -1,14 +1,14 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@exchain-ethersproject/abstract-signer": "^5.4.0",
-    "@exchain-ethersproject/address": "^5.4.0",
-    "@exchain-ethersproject/bignumber": "^5.4.0",
-    "@exchain-ethersproject/bytes": "^5.4.0",
-    "@exchain-ethersproject/keccak256": "^5.4.0",
-    "@exchain-ethersproject/logger": "^5.4.0",
-    "@exchain-ethersproject/properties": "^5.4.0",
-    "@exchain-ethersproject/strings": "^5.4.0"
+    "@exchain-ethersproject/abstract-signer": "^5.5.0",
+    "@exchain-ethersproject/address": "^5.5.0",
+    "@exchain-ethersproject/bignumber": "^5.5.0",
+    "@exchain-ethersproject/bytes": "^5.5.0",
+    "@exchain-ethersproject/keccak256": "^5.5.0",
+    "@exchain-ethersproject/logger": "^5.5.0",
+    "@exchain-ethersproject/properties": "^5.5.0",
+    "@exchain-ethersproject/strings": "^5.5.0"
   },
   "description": "Hash utility functions for Ethereum.",
   "ethereum": "donations.ethers.eth",
@@ -44,5 +44,5 @@
   "sideEffects": false,
   "tarballHash": "0x8be85f28931dfc3dd1ab9b95a69dd0f83081d4447a093f690f4a7fd935dc08cf",
   "types": "./lib/index.d.ts",
-  "version": "5.4.0"
+  "version": "5.5.0"
 }

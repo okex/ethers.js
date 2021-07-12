@@ -1,7 +1,7 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "exchain-ethers": "^5.4.0"
+    "exchain-ethers": "^5.5.0"
   },
   "description": "ASM libraries and tools for the Ethereum EVM.",
   "ethereum": "donations.ethers.eth",
@@ -38,5 +38,5 @@
   },
   "tarballHash": "0xc74c9dbccf069a9dc15198a6422d792f252651cf607a29c5affc9e0e8e9fb408",
   "types": "./lib/index.d.ts",
-  "version": "5.4.0"
+  "version": "5.5.0"
 }

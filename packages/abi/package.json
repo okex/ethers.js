@@ -1,15 +1,15 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@exchain-ethersproject/address": "^5.4.0",
-    "@exchain-ethersproject/bignumber": "^5.4.0",
-    "@exchain-ethersproject/bytes": "^5.4.0",
-    "@exchain-ethersproject/constants": "^5.4.0",
-    "@exchain-ethersproject/hash": "^5.4.0",
-    "@exchain-ethersproject/keccak256": "^5.4.0",
-    "@exchain-ethersproject/logger": "^5.4.0",
-    "@exchain-ethersproject/properties": "^5.4.0",
-    "@exchain-ethersproject/strings": "^5.4.0"
+    "@exchain-ethersproject/address": "^5.5.0",
+    "@exchain-ethersproject/bignumber": "^5.5.0",
+    "@exchain-ethersproject/bytes": "^5.5.0",
+    "@exchain-ethersproject/constants": "^5.5.0",
+    "@exchain-ethersproject/hash": "^5.5.0",
+    "@exchain-ethersproject/keccak256": "^5.5.0",
+    "@exchain-ethersproject/logger": "^5.5.0",
+    "@exchain-ethersproject/properties": "^5.5.0",
+    "@exchain-ethersproject/strings": "^5.5.0"
   },
   "description": "Utilities and Classes for parsing, formatting and managing Ethereum ABIs.",
   "ethereum": "donations.ethers.eth",
@@ -45,5 +45,5 @@
   "sideEffects": false,
   "tarballHash": "0xc245561411575102d5bd84bff62e1db56c49c8dcd4e99be2a6dba67007a29d7e",
   "types": "./lib/index.d.ts",
-  "version": "5.4.0"
+  "version": "5.5.0"
 }
