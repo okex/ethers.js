@@ -197,7 +197,7 @@ function starts(text, prefix) {
                     return;
                 }
                 // Prolly a require
-                if (value.match(/^@ethersproject\/[a-z0-9-]+$/)) {
+                if (value.match(/^@exchain\-ethersproject\/[a-z0-9-]+$/)) {
                     return;
                 }
                 if (value.substring(0, 2) === "./") {

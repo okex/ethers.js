@@ -52,7 +52,9 @@ export function getOrdered(skipNobuild?: boolean): Array<string> {
             deps[name].add(dep);
         });
     }
-
+    console.log("dirnames:")
+    console.log(dirnames)
+    console.log()
     for (let i = 0; i < dirnames.length; i++) {
         let dirname = dirnames[i];
         let info = getPackage(dirname);
@@ -92,7 +94,7 @@ export function getOrdered(skipNobuild?: boolean): Array<string> {
             throw new Error("Nothing processed; circular dependencies...");
         }
     }
-
+    console.log(filenames)
     return ordered.map((name) => filenames[name]);
 }
 
